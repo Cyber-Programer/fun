@@ -29,7 +29,7 @@ function main(){
             } else if(user == 'naima' || user ==  'nayma'){
                 repot.innerHTML = 'Cheka khor 😶'
             } else if(user == 'rony'|| user == 'roni'){
-                repot.innerHTML = 'Biri khor 😏'
+                repot.innerHTML = 'Kuttar haddi 😏 sorry faziler*'
             }else if(user == 'habiba'){
                 repot.innerHTML = 'Choto morich e jhal besi 😌'
             }else if(user =='khusbu'){
