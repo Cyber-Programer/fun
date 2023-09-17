@@ -58,6 +58,8 @@ function main(){
                 repot.innerHTML = 'Unar kotha bad....';
             }else if(user == 'sham'||user == 'shams'){
                 repot.innerHTML ='Good teacher';
+            }else if(user == 'meraj'||user =='miraj'){
+                repot.innerHTML = 'Taklare ar ki bolbo';
             }
         }
     }
