@@ -44,6 +44,7 @@ function main(){
                 repot.innerHTML = 'Gorila 🤭'
             }else if(user == 'shorna'){
                 repot.innerHTML = 'Lolita 😌'
+            }
         }
     }
 }
