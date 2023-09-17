@@ -34,8 +34,8 @@ function main(){
                 repot.innerHTML = 'Choto morich e jhal besi 😌'
             }else if(user =='khusbu'){
                 repot.innerHTML ='sir re bichar dimu 😎'
-            }else if(user == 'khadiza'){
-                repot.innerHTML = 'Jisan er bou 🤭'
+            }else if(user == 'khadiza'|| user == 'khadija'){
+                repot.innerHTML = 'Apon er bou 🤭'
             }else if(user == 'rimon'){
                 repot.innerHTML = 'Ekta na hoile arekta 🤓'
             }else if(user == 'ahosan'){
