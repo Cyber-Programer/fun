@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+#container{
+    /* background-color: black; */
+    border: 2px solid white;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+#myname{
+    justify-content: center;
+    display: flex;
+    color: rgba(255, 255, 255, 0.809);
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+
+#enter{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 5px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#enter::placeholder{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#enter:active{
+    background-color: bisque;
+    border: 3px white;
+}
+
+#btn{
+    height: 25px;
+    width: 60px;
+    border-radius: 9px;
+}
+
+#btn:active{
+    background-color: tan;
+    border: 2px solid white;
+}
+
+#comment{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
