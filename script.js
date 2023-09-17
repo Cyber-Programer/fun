@@ -15,7 +15,7 @@ function main(){
             if(user === 'shohan'){
                 repot.innerHTML = 'Pure single boy'
             } else if(user === 'apon'){
-                repot.innerHTML = 'Khadur jamai 🤭'
+                repot.innerHTML = 'All unmarried girls of crush 🤭'
             } else if(user === 'hridoy'){
                 repot.innerHTML = 'Mey potanor try kari 🤐'
             } else if(user === 'akiba'){
