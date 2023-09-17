@@ -46,6 +46,8 @@ function main(){
                 repot.innerHTML = 'Lolita 😌'
             }else if(user == 'rafa'){
                 repot.innerHTML = 'Unknown persone 😏'
+            }else if(user == 'tasrun'){
+                repot.innerHTML = 'Choto vai amr'
             }
         }
     }
