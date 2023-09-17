@@ -48,6 +48,8 @@ function main(){
                 repot.innerHTML = 'Unknown persone 😏'
             }else if(user == 'tasrun'){
                 repot.innerHTML = 'Choto vai amr'
+            }else if(user == 'hasan'||user == 'hasan sir'){
+                repot.innerHTML = 'Fevourit sir 😍'
             }
         }
     }
