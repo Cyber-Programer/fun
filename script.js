@@ -42,7 +42,8 @@ function main(){
                 repot.innerHTML = 'Sobar pola 😟'
             }else if(user =='niloy'){
                 repot.innerHTML = 'Gorila 🤭'
-            }
+            }else if(user == 'shorna'){
+                repot.innerHTML = 'Lolita 😌'
         }
     }
 }
