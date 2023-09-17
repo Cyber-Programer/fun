@@ -60,6 +60,8 @@ function main(){
                 repot.innerHTML ='Good teacher';
             }else if(user == 'meraj'||user =='miraj'){
                 repot.innerHTML = 'Taklare ar ki bolbo';
+            }else if(user == 'forhad'||user == 'forhad sir'){
+                repot.innerHTML = 'Phone thakle aj amio teacher hoitam'
             }
         }
     }
