@@ -52,6 +52,12 @@ function main(){
                 repot.innerHTML = 'Favorite sir 😍';
             }else if(user == 'ruhulamin'||user == 'ruhul amin'){
                 repot.innerHTML = 'Big boss';
+            }else if(user == 'arifa'||user == 'adiba'){
+                repot.innerHTML ='gf';
+            }else if(user == 'israfil'){
+                repot.innerHTML = 'Unar kotha bad....';
+            }else if(user == 'sham'||user == 'shams'){
+                repot.innerHTML ='Good teacher';
             }
         }
     }
