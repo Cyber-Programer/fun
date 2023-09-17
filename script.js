@@ -50,6 +50,8 @@ function main(){
                 repot.innerHTML = 'Choto vai amr'
             }else if(user == 'hasan'||user == 'hasan sir'){
                 repot.innerHTML = 'Fevourit sir 😍'
+            }else if(user == 'ruhulamin'||user == 'ruhul amin'{
+                repot.innerHTML = 'Big boss'
             }
         }
     }
