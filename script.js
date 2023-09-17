@@ -54,7 +54,7 @@ function main(){
                 repot.innerHTML = 'Big boss';
             }else if(user == 'arifa'||user == 'adiba'){
                 repot.innerHTML ='gf';
-            }else if(user == 'israfil'){
+            }else if(user == 'israfil'||user=='israfil sir'){
                 repot.innerHTML = 'Unar kotha bad....';
             }else if(user == 'sham'||user == 'shams'){
                 repot.innerHTML ='Good teacher';
