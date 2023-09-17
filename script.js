@@ -50,7 +50,7 @@ function main(){
                 repot.innerHTML = 'Choto vai amr';
             } else if(user == 'hasan'||user == 'hasan sir'){
                 repot.innerHTML = 'Favorite sir 😍';
-            } else if(user == 'ruhulamin'||user == 'ruhul amin'){
+            } } else if (user == 'ruhulamin' || user == 'ruhul amin') {
                 repot.innerHTML = 'Big boss';
             }
         }
