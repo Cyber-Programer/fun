@@ -44,6 +44,8 @@ function main(){
                 repot.innerHTML = 'Gorila 🤭'
             }else if(user == 'shorna'){
                 repot.innerHTML = 'Lolita 😌'
+            }else if(user == 'rafa'){
+                repot.innerHTML = 'Unknown persone 😏'
             }
         }
     }
