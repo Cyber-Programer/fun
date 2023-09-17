@@ -24,7 +24,7 @@ function main(){
                 repot.innerHTML  = 'Jony kakku er fan 🤐'
             } else if(user== 'sharmin'){
                 repot.innerHTML = 'Half married 😐'
-            } else if(user == 'sumiya'){
+            } else if(user == 'sumiya'|| user =='sumiya'){
                 repot.innerHTML = 'Collage pass 🤨'
             } else if(user == 'naima' || user ==  'nayma'){
                 repot.innerHTML = 'Cheka khor 😶'
@@ -35,7 +35,7 @@ function main(){
             }else if(user =='khusbu'){
                 repot.innerHTML ='sir re bichar dimu 😎'
             }else if(user == 'khadiza'|| user == 'khadija'){
-                repot.innerHTML = 'Apon er bou 🤭'
+                repot.innerHTML = 'Apon er bestie 🤭'
             }else if(user == 'rimon'){
                 repot.innerHTML = 'Ekta na hoile arekta 🤓'
             }else if(user == 'ahosan'){
