@@ -62,6 +62,8 @@ function main(){
                 repot.innerHTML = 'Taklare ar ki bolbo';
             }else if(user == 'forhad'||user == 'forhad sir'){
                 repot.innerHTML = 'Phone thakle aj amio teacher hoitam';
+            }else if(user == 'rifat'){
+                repot.innerHTML = 'Sumiyar jamai';
             }
         }
     }
