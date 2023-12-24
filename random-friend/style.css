@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(232, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: -20px;
+}
+
+#fnd{
+    font-size: 41px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.main{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.2),-10px -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.elm{
+    position: relative;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: -5%; */
+    /* flex-direction: column; */
+}
+
+input{
+    /* position: relative; */
+    width: 90%;
+    margin: 5px;
+    outline: none;
+    padding-left: 20px;
+    height: 40px; 
+    font-size: 20px;
+}
+
+button{
+    width: 20%;
+    height: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(84, 84, 84);
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.result{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 97%;
+    left: 8px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* visibility:hidden; */
+}
+
+
+.result ul{
+    border-top: 1px solid #999;
+    padding: 10px 10px;
+}
+
+.result ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.frindResult{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* // Responsive parts  // */
+@media (max-width:425px) {
+    .main{
+        position: relative;
+        top: -5%;
+        width: 300px;
+        height:300px;
+    }
+
+    h1{
+        font-size: 30px;
+        /* margin-left: 10px; */
+        top: -10%;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    #fnd{
+        font-weight: 100;
+        font-family: 'DM Serif Display', serif;
+    }
+
+    input{
+        padding-left: 8px;
+    }
+}
