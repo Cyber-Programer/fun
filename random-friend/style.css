@@ -7,12 +7,94 @@
 }
 
 body{
+    position: relative;
     height: 100vh;
     width: 100%;
     background-color: rgb(232, 228, 228);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.fa-circle-info{
+    position: relative;
+    display: flex;
+    top: -8%;
+    right: -42%;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    font-size: 19px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.cradit{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.2),-10px -5px 15px rgba(0, 0, 0, 0.2);
+    /* z-index: 99; */
+}
+
+.cradit h1{
+    text-align: center;
+    padding-bottom: 10px;
+    top: -20%;
+    /* font-size: 30px; */
+}
+
+#cont{
+    text-align: left;
+    padding-left: 30px;
+    /* margin-bottom: 1px; */
+    font-size: 25px;
+}
+
+.links{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 10%;
+    bottom: 10%;
+    top: 50%;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(41, 41, 228);
+    font-size: 28px;
+    top: -30%;
+}
+
+#back{
+    position: absolute;
+    background-color: rgb(36, 30, 30);
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    border-radius:9px;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+    justify-content: center;
+    right: 4%;
+    bottom: 4%;
+    cursor: pointer;
 }
 
 h1{
@@ -28,6 +110,45 @@ h1{
     text-decoration: underline;
 }
 
+.login{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.2),-10px -5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    visibility: hidden;
+}
+
+label{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#name{
+    margin-top:30px;
+    
+}
+
+#btn2{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#data {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
 .main{
     width: 500px;
     height: 250px;
@@ -38,6 +159,7 @@ h1{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.2),-10px -5px 15px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
 }
 
 .elm{
@@ -111,6 +233,7 @@ button{
         top: -5%;
         width: 300px;
         height:300px;
+        /* z-index: 9; */
     }
 
     h1{
@@ -129,4 +252,31 @@ button{
     input{
         padding-left: 8px;
     }
+
+    .login{
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 20%;
+        /* z-index: 99; */
+    }
+
+    .cradit{
+        height: 300px;
+        width: 300px;
+        top: 20%;
+    }
+
+    #cont{
+        text-align: left;
+        padding-left: 20px;
+        /* margin-bottom: 1px; */
+        font-size: 25px;
+    }
+
+    .links{
+        top: 45%;
+    }
 }
+
+
