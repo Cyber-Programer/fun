@@ -17,7 +17,7 @@ let submit = false;
 function nameSugation(){
     let availableKeywords = [
         'habiba',
-        'nayma',
+        'naima',
         'khusbu',
         'khadiza',
         'sumiya',
@@ -96,7 +96,7 @@ function randomNameShow(){
     const friends = {
         "girls": [
             "habiba",
-            "nayma",
+            "naima",
             "khusbu",
             "khadiza",
             "sumiya",
