@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: rgb(228, 244, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(171, 161, 161),-10px 0px 12px rgb(181, 181, 181);
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: fantasy;
+    display: flex;
+    position: relative;
+    top: -10%;
+    /* text-transform: uppercase; */
+}
+
+h4{
+    top: -5%;
+    position: relative;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.butn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(138, 138, 138, 0.971);
+    margin: 50px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* .butn:hover{
+    box-shadow: 3px 3px 10px black;
+} */
+
+@media (max-width:425px) {
+    .main{
+        width: 340px;
+        height: 400px;
+    }
+
+    h2{
+        top: 10%;
+    }
+
+    h4 {
+        top: 19%;
+    }
+
+    .butn{
+        width: 90px;
+        margin: 100px 30px;
+        padding: 3px;
+        position: relative;
+        bottom: -10%;
+    }
+}
+
+@media (max-width:320px) {
+    .main{
+        width: 300px;
+        height: 400px;
+    }
+
+    h2{
+        top: 15%;
+    }
+
+    h4 {
+        top: 25%;
+    }
+
+    .butn{
+        font-size: 15px;
+        font-weight: 500;
+        width: 80px;
+        bottom: -17%;
+    }
+}
