@@ -1,0 +1,1 @@
+link: hpps://cyebr-programer.github.io/fun/scor-counter
