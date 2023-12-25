@@ -1,1 +1,1 @@
-link: https://cyber-programer.github.io/fun/scor-counter
+link: https://cyber-programer.github.io/fun/scor-coutnter/
