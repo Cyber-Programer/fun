@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(./images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    /* width: 100%; */
+    min-height: 100vh;
+}
+
+.logo{
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-btn{
+    margin: 7% auto 0;
+}
+
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#fff;
+    z-index: -1;
+    transition: 0.5s;
+    
+}
+
+.banner-btn a:hover span{
+    width: 100%;
+}
+
+.banner-btn a:hover {
+    color: black;
+}
+
+.sideNav{
+    width: 150px;
+    height: 100vh;
+    top: 0;
+    right: -250px;
+    position: fixed;
+    background: #009688;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.sideNav ul li{
+    list-style: none;
+    margin: 70px 20px;
+    text-align: center;
+}
+
+.sideNav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sideNav ul li a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: 0.5s;
+}
+
+
+.sideNav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+.fa-solid {
+    font-size: 30px;
+    position: fixed; /* or position: absolute; based on your layout */
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.fa-xmark{
+    z-index: -1;
+}
+
+/* feature */
+.feature{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.title-text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+
+.title-text h1{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 700px) {
+    .banner{
+        width: 100%;
+        color:white;
+        padding-bottom: 50px;
+    }
+
+    .banner-text h1{
+        font-size: 80px;
+        position: relative;
+        top: -40px;
+    }
+}
