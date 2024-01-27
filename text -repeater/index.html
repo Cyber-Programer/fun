@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Repeat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+       <div class="box">
+        <div class="text">
+            <h3>Text Repeat</h3>
+            <p>Welcome to <b> Text Repeater</b> Using this site you can repeat a line of text many time.</p>
+        </div>        
+
+        <div class="text-inp">
+            <textarea  id="text" placeholder="Input your text..." spellcheck="false"></textarea>
+            <input type="number"  id="num" placeholder="repeat number..">
+            <button id="btn" onclick="repeat()">Repeat</button>
+        </div>
+        
+       </div>
+    </section>
+
+    <div class="show">
+        <h3>Click Your Text To coppy</h3>
+        <p id="cpy">Text coppy Done!</p>
+        <textarea id="shows" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
