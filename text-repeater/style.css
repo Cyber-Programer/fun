@@ -203,6 +203,8 @@ margin: 0;
     border-radius: 9px;
     outline: none;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    /* margin-right: 100%; */
 }
 
 .show p{
@@ -212,4 +214,19 @@ margin: 0;
     margin-left: 5px;
     transition: all 0.5s;
     display:none;
+}
+
+@media (max-width:700px) {
+    .show h3{
+        font-size: 20px;
+    }
+
+    .show textarea{
+        width: 250px;
+        height: 300px;
+    }
+
+    .show p{
+        font-size: 15px;
+    }
 }
